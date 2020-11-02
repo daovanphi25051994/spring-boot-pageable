@@ -1,0 +1,18 @@
+### Create user
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+"name": "phi 26"
+}
+
+
+### Get page user
+GET http://localhost:8080/api/users/pages/4
+Content-Type: application/json
+
+### Get all user
+GET http://localhost:8080/api/users
+Content-Type: application/json
+
+
